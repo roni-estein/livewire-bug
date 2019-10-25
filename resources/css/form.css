@@ -1,0 +1,64 @@
+
+
+.tw-alpha-error{
+  @apply text-white text-xs pt-1 font-bold pl-4
+}
+
+.tw-alpha-input{
+  resize: none;
+  @apply rounded bg-white-alpha w-full p-4 text-white font-bold;
+}
+
+.tw-alpha-input::placeholder { /* Most modern browsers support this now. */
+  opacity: 1;
+  @apply text-white
+
+  /*color:    #909;*/
+}
+
+
+/** FORMS **/
+.form-label{
+  @apply text-xx uppercase tracking-wide font-bold font-sans
+}
+
+.form-label.error{
+  @apply text-red-500
+}
+
+.form-input-required.error, .form-input.error,
+.form-select-required.error, .form-select.error{
+  @apply border-red-400;
+}
+
+
+.form-checkbox, .form-radio{
+  @apply  h-5 w-5;
+}
+.tw-input{
+
+
+  border: 1px solid #b8babc;
+  font-family: "Helvetica Neue";
+  font-weight: 300;
+  @apply .block .appearance-none .bg-white .w-full .text-sm .p-3 .rounded-none .shadow .tracking-wide
+}
+
+.tw-input-date{
+
+
+  border: 1px solid #b8babc;
+  font-family: "Helvetica Neue";
+  font-weight: 300;
+  @apply .block .appearance-none .bg-white .w-full .text-sm .p-3 .w-full .rounded-none .shadow .h-10
+}
+
+.tw-error{
+  @apply .text-red-400 .text-sm .ml-3 .pt-1
+}
+
+.tw-button{
+  font-family: Montserrat;
+  @apply .font-bold .text-white .bg-turquoise-500 .py-3 .px-6 .uppercase .text-sm
+}
+

@@ -1,0 +1,16 @@
+
+input, select, textarea, button, div, a {
+  &:focus, &:active {
+    outline: none;
+  }
+}
+
+h1 {@apply text-4xl}
+h2 { font-size: 1.3rem}
+h3 { @apply text-lg}
+
+@font-face {
+  font-family: 'Avenir Next';
+  src: local('Avenir Next');
+  src: url('/fonts/AvenirNextLTPro-Regular.otf');
+}
